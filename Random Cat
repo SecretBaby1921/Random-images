@@ -26,7 +26,7 @@ local options = {
   function() setclipboard("https://i.pinimg.com/236x/8c/65/f3/8c65f37cf7d4a6c540bcb42e70ca878c.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/16/ca/b1/16cab153397fc070d5369635ba891e8d.jpg") end,
   function() setcliboard("https://i.pinimg.com/236x/d1/e7/94/d1e79464f826d4d4be4e051973b85fda.jpg") end,
-  function() setclipboard("https://i.pinimg.com/236x/44/73/2f/44732f3e0db05de6d409ded8def6c5df.jpg") end
+  function() setclipboard("https://i.pinimg.com/236x/44/73/2f/44732f3e0db05de6d409ded8def6c5df.jpg") end,
   function() setcliboard("https://i.pinimg.com/236x/00/63/e1/0063e1a0ac71da67bf6403ee5f6a3f09.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/ce/e8/1b/cee81b3f37b5d24f084547ae8bd4b1d1.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/24/73/c0/2473c024b55a2ad96677ea189c1df227.jpg") end,
