@@ -9,18 +9,26 @@ local options = {
   function() setclipboard("https://i.pinimg.com/236x/6c/a3/8b/6ca38bae34f712ef146322fd4f6f102f.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/97/bf/3c/97bf3cdfee4652d7cd85f6241c778f74.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/ad/7e/a2/ad7ea26e6eb9e8546b2db560d9c1bfef.jpg") end,
-  function() setcliboard("https://i.pinimg.com/236x/05/28/4f/05284f5a812f461d31c3e87a6b243a6e.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/05/28/4f/05284f5a812f461d31c3e87a6b243a6e.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/d5/71/37/d57137a5132ddcfed631ad2c92158790.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/c2/20/2c/c2202ca59646297b6e381d17aa2e4d9a.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/26/a5/8e/26a58e7e952d05a56527533066629958.jpg") end,
-  function() setcliboard("https://i.pinimg.com/236x/06/f2/7a/06f27abac26f2285904a318a3ea88f22.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/06/f2/7a/06f27abac26f2285904a318a3ea88f22.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/d2/bc/56/d2bc56989f0f3e47cbbb0f9e9c44ec7b.jpg") end,
-  function() setcliboard("https://i.pinimg.com/236x/0a/72/43/0a7243ce38d017d4bdc5a3a09e909270.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/0a/72/43/0a7243ce38d017d4bdc5a3a09e909270.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/02/8e/7d/028e7d45e221d3b914690c0fc821bdc5.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/2a/39/b7/2a39b7ad51da056ef60d6e28e2457b1e.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/05/88/5f/05885f1b37fb40e585f1d17021cce113.jpg") end,
-  function() setcliboard("https://i.pinimg.com/236x/31/d4/de/31d4dedc1680472c8ed5a03650202011.jpg") end,
-  function() setclipboard("https://i.pinimg.com/236x/b7/25/65/b72565584a16a4e547339e72a2215bcb.jpg") end
+  function() setclipboard("https://i.pinimg.com/236x/31/d4/de/31d4dedc1680472c8ed5a03650202011.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/b7/25/65/b72565584a16a4e547339e72a2215bcb.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/40/2b/b1/402bb10952df529dd61cc09396f7aa96.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/91/ff/df/91ffdf48693a9a66dcf30633c636131e.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/56/be/b7/56beb794703821347a74acccd1bc01dc.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/f1/16/f0/f116f02548e69b046c553470f6523925.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/41/d3/09/41d3096ba324cd1617e35256fe38c661.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/71/25/af/7125af85906207614e332a52a2a65b6f.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/99/e6/9e/99e69e57efd8501a65b950369284e173.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/5f/01/d1/5f01d105110dc49c1ff8859be84d38c5.jpg") end
 }
 
 local randomNum = math.random(1, #options)
