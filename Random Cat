@@ -1,0 +1,16 @@
+local options = {
+  function() setclipboard("https://i.pinimg.com/236x/21/b6/f9/21b6f9ac6bbf9e55768ea530a5a4c8af.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/f8/da/39/f8da396683b4d42c9b2caa679c961b43.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/61/b8/0c/61b80cbded1c9adf895b20ba2ffd0867.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/60/5e/46/605e461ca634e868085d1a3d9d02b1ea.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/78/69/72/786972cceb9f7bf266778a5775848b12.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/76/1e/4e/761e4e53c11d254fbd67b5211c5316ba.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/f9/9b/ee/f99bee1eabea25abe9e34f5cc2f2d427.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/8c/4a/51/8c4a51e005629a084505649079b0a949.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/b3/6c/3f/b36c3f79e24555793b2a8bcb988aa3a1.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/2d/cf/63/2dcf63c23e359dd5fec6ced32d4d8805.jpg") end
+}
+
+local randomNum = math.random(1, #options)
+
+options[randomNum]()
