@@ -27,8 +27,11 @@ local options = {
   function() setclipboard("https://i.pinimg.com/236x/0f/5c/f1/0f5cf19bd28579e8fdb6866f07687298.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/1b/e5/26/1be526bcec95380f92de399795e70a94.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/2f/50/d2/2f50d28d1441c2289b9e12d535b77895.jpg") end,
-  function() setclipboard("") end,
-  function() setclipboard("") end
+  function() setclipboard("https://i.pinimg.com/236x/e4/9b/4a/e49b4aef31f6a66859b3797eb6a88bde.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/0e/a8/27/0ea82774094de3ae07197c6631a17ed6.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/6a/57/dd/6a57dd57bc8ad80ad8fe5ec078bea7e1.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/97/ad/10/97ad105b2f1703eea05a427a5c24f10c.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/d2/8b/6e/d28b6efff84f6ea4af74a7fd6149e361.jpg") end
 }
 
 local randomNum = math.random(1, #options)
