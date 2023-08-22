@@ -49,7 +49,10 @@ local options = {
   function() setclipboard("https://i.pinimg.com/236x/a9/e4/9c/a9e49c8e3ddcda1a1f93a76343e4b70a.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/71/20/09/7120097949ef3e690fd8b78a6d751a71.jpg") end,
   function() setclipboard("https://images-ng.pixai.art/images/thumb/2b40ee98-7ba2-43d2-b4d3-4fed527f57e3") end,
-  function() setcliboard("https://images-ng.pixai.art/images/orig/daf81a3b-fd7e-4995-9125-ceab9f1e6d35") end
+  function() setcliboard("https://images-ng.pixai.art/images/orig/daf81a3b-fd7e-4995-9125-ceab9f1e6d35") end,
+  function() setclipboard("https://images-ng.pixai.art/images/orig/16caf526-8d07-4cc9-ba8d-7f262f1c80b7") end,
+  function() setclipboard("https://images.tensorartassets.com/community/images/618839126166449157/c2aa4336ccced3cf0a628ad63d34808a.png!mfit_w2048_h2048_jpg") end,
+  function() setclipboard("https://img.freepik.com/free-photo/cat-with-collar-that-says-cat-it_1340-32740.jpg?t=st=1692691615~exp=1692695215~hmac=9e38f0405ca0cc887e55d3fad3a8fcab92438fedc14a1d3a8a2fb427c65af988&w=996") end
 }
 
 local randomNum = math.random(1, #options)
