@@ -44,8 +44,3 @@ local options = {
 local randomNum = math.random(1, #options)
 
 options[randomNum]()
-}
-
-local randomNum = math.random(1, #options)
-
-options[randomNum]()
