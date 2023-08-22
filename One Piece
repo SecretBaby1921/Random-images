@@ -39,7 +39,11 @@ local options = {
   function() setclipboard("https://i.pinimg.com/236x/fa/d0/7a/fad07a0c3161ee1e1b26abe7abdb217d.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/05/d0/ed/05d0ed7f2130f2edc4c261e6db47c43e.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/ea/31/1e/ea311ef09ecdd35fb03ec378db68c4c6.jpg") end,
-  function() setclipboard("https://i.pinimg.com/236x/29/d5/1b/29d51b356699e58dca1e010e8f53dce2.jpg") end
+  function() setclipboard("https://i.pinimg.com/236x/29/d5/1b/29d51b356699e58dca1e010e8f53dce2.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/64/1c/84/641c84fa0975d298324449f9e175a96c.jpg") end,
+  function() setclipboard("https://cdn.discordapp.com/attachments/1111350760345718804/1138285947339939951/1b8f706bbd4bb3334c684f7da37b4d42.jpg") end,
+  function() setclipboard("https://cdn.discordapp.com/attachments/1111350760345718804/1138285945792241696/6c894486eb93c9854f47bec3521f1225.jpg") end,
+  function() setclipboard("https://cdn.discordapp.com/attachments/1111350760345718804/1136899085157285908/89a8e8b5e83e2d6d298ad196299eb5d9.jpg") end
 }
 
 local randomNum = math.random(1, #options)
