@@ -20,7 +20,14 @@ local options = {
   function() setclipboard("https://images-ng.pixai.art/images/thumb/9e6948b9-42a1-40ef-a4b3-a02daea0e857") end,
   function() setclipboard("https://imagedelivery.net/5ejkUOtsMH5sf63fw6q33Q/69bfa73a-7218-4e71-0a9c-e88efc8eb000/thumbnail") end,
   function() setclipboard("https://images-ng.pixai.art/images/thumb/9e68d424-f3cd-467d-b753-f269ca0c8369") end,
-  function() setclipboard("https://images-ng.pixai.art/images/thumb/591b5dd2-6a89-4e30-a871-e4f4d6c17fee") end
+  function() setclipboard("https://images-ng.pixai.art/images/thumb/591b5dd2-6a89-4e30-a871-e4f4d6c17fee") end,
+  function() setclipboard("https://images-ng.pixai.art/images/thumb/8fbe3bb6-0552-403f-8ea5-ff68a9a694a1") end,
+  function() setclipboard("https://images-ng.pixai.art/images/thumb/ff859196-f4ba-46f7-b1fc-d94d2b7b9edd") end,
+  function() setclipboard("https://images-ng.pixai.art/images/thumb/687dc598-f91b-4099-bf7e-3dc5de0f5cec") end,
+  function() setclipboard("https://images-ng.pixai.art/images/thumb/162459ee-3502-4296-0d9e-23e83625f800") end,
+  function() setclipboard("https://images-ng.pixai.art/images/thumb/f2d5538e-11eb-483e-acd3-525afc37acc6") end,
+  function() setclipboard("https://images-ng.pixai.art/images/thumb/1e2fb17d-10e1-4119-80d1-0deb319248ff") end,
+  function() setclipboard("https://images-ng.pixai.art/images/thumb/80b2e69a-21ab-4c07-acdc-a26e2e45cc8d") end
 }
 
 local randomNum = math.random(1, #options)
