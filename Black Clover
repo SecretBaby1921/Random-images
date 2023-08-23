@@ -1,0 +1,24 @@
+local options = {
+  function() setclipboard("https://i.pinimg.com/236x/16/05/f4/1605f42e8d495dbd894250a4a3f003e0.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/3a/38/c5/3a38c5e7df2c7c883dd1ad86ab6dd534.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/52/45/31/5245318eadb5e87a666b65b4f7d88fc8.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/62/9b/02/629b02cbaae09ab9e843c88672f4fd03.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/98/a1/bb/98a1bb563cdb229c7f95db14763c7715.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/8e/da/dc/8edadc9c245921a39223e0034f2a1844.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/bc/ca/e0/bccae08fe8bc2c83f8775004791c1016.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/03/76/a0/0376a0bde7050227ec81a11cdd12921b.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/4e/01/9b/4e019be50a24bda597bc936c282c8530.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/54/41/5f/54415fa161b7286172f34fd86fa9dfba.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/e3/01/10/e30110cb9c6f1046d851d902765fd73d.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/11/a3/8a/11a38a6a1280b158a2df729b9c35ebc2.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/4f/0c/18/4f0c1888052e763e95fa222f877382f8.jpg") end,
+  function() setclipboard("https://cdn.discordapp.com/attachments/1111350760345718804/1136906644207448136/5727619eec7b490a275556f17653c715.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/31/5e/95/315e950812a0ac4893939196ff33e1c8.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/a6/03/a3/a603a3d36cfaa62ef7b89169085ef5bd.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/c4/0d/a8/c40da8745b3f078bf8b1362438b79fff.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/6d/64/d5/6d64d54773c0fb8e883e55ed18185535.jpg") end
+}
+
+local randomNum = math.random(1, #options)
+
+options[randomNum]()
