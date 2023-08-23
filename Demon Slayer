@@ -17,8 +17,14 @@ local options = {
   function() setclipboard("https://i.pinimg.com/236x/31/45/cc/3145cc8264180b4b5c85787a3e67058c.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/bb/14/23/bb1423cf5150078d0783fcc096bb4e1a.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/36/23/d4/3623d41895177c910d55e0cc6fdbedc5.jpg") end,
-  function() setclipboard("") end,
-  function() setclipboard("") end,
+  function() setclipboard("https://i.pinimg.com/236x/65/17/f7/6517f7e74184282a72b55dcd8da01d14.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/72/35/bc/7235bc847636023ca3cdaa5beb5925cb.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/a4/c3/f3/a4c3f32f4a106517a06ddff8246993c6.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/0d/ae/59/0dae592101ee2032f8b0f5813dbccf13.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/ad/16/f2/ad16f2d54071d0eff26e26cf2b50eddd.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/98/4a/ff/984affdc8684f6e8e0c9222ed2175b5b.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/27/47/50/2747500643abc8de59b33c31df5beb1d.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/bb/c6/8c/bbc68cb018246243929a71be3e83920b.jpg") end,
   function() setclipboard("") end,
   function() setclipboard("") end
 }
