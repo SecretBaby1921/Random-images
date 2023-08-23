@@ -22,7 +22,10 @@ local options = {
   function() setclipboard("https://i.pinimg.com/236x/b1/d3/98/b1d3988ff73941bdf0844b1f75379683.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/7f/ff/f8/7ffff8ff07b6fe07787f688f5aa16d83.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/35/07/d6/3507d61d3733efa7d0ccf40510f650e2.jpg") end,
-  function() setclipboard("https://i.pinimg.com/236x/b6/d7/65/b6d765cfabf6704477b7b54ea093019f.jpg") end
+  function() setclipboard("https://i.pinimg.com/236x/b6/d7/65/b6d765cfabf6704477b7b54ea093019f.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/14/88/e7/1488e70729916045ba421c3d9981b29b.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/86/2f/65/862f652db4cc267ccc225e0e8ad182b0.jpg") end,
+  function() setclipboard("https://cdn.discordapp.com/attachments/813567091633815612/1143819969424007268/img_2023_08_11_23_46_10.jpg") end
 }
 
 local randomNum = math.random(1, #options)
