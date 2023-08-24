@@ -1,0 +1,28 @@
+local options = {
+  function() setclipboard("https://i.pinimg.com/236x/2f/23/2d/2f232d2f2b08bae12500bafa8977eb82.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/e3/fe/f1/e3fef17397002ffff7fd51031c4cb715.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/4e/e2/16/4ee216626206edab4778575b6f0b055a.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/b4/8a/da/b48ada00fb8b5b9bafa0f82f44792c94.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/74/86/81/748681d2b428b2b1168fe17ca986b8ad.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/28/ea/31/28ea314cd4e6e44ed52dac20814033af.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/ac/b5/4f/acb54f19be3c5e5a88193d4f0716ac0d.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/cb/e6/e4/cbe6e4c906e8c83c1706170f2812c1e1.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/a9/42/04/a942042d565ab1658ea60cd3470eeed0.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/66/46/9f/66469fd0cc76992754be4af7adf7851f.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/50/0b/44/500b44b029358d9259930fdaad85954c.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/24/e7/04/24e704de015fa9d961058028a7340a59.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/dd/05/35/dd0535e6bc509275beabe85654a35ba5.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/ba/c0/e4/bac0e4e173511c8b53eca08cd145a59e.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/a8/a7/5e/a8a75e1c0bf46307e2733909e233e47b.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/63/8f/79/638f79b9b165c4216137baf64c4998c5.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/14/ef/86/14ef862ad2e01f557e12c2df0c338ae4.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/05/ac/79/05ac7961683a61a9f0c131632df380ac.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/2d/05/02/2d050296b4082a8335dfe4232f931539.jpg") end,
+  function() setclipboard("") end,
+  function() setclipboard("") end,
+  function() setclipboard("") end
+}
+
+local randomNum = math.random(1, #options)
+
+options[randomNum]()
