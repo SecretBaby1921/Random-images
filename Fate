@@ -18,9 +18,21 @@ local options = {
   function() setclipboard("https://i.pinimg.com/236x/14/ef/86/14ef862ad2e01f557e12c2df0c338ae4.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/05/ac/79/05ac7961683a61a9f0c131632df380ac.jpg") end,
   function() setclipboard("https://i.pinimg.com/236x/2d/05/02/2d050296b4082a8335dfe4232f931539.jpg") end,
-  function() setclipboard("") end,
-  function() setclipboard("") end,
-  function() setclipboard("") end
+  function() setclipboard("https://i.pinimg.com/236x/d8/56/e7/d856e71d6bc74fdb146b2cf708a465a5.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/1d/05/2e/1d052e2b20273076a1db9d981c6b8895.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/a9/42/04/a942042d565ab1658ea60cd3470eeed0.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/73/c4/d7/73c4d770e8490ea2856e951d4d0ad648.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/78/f4/2c/78f42cc83287a361a10a1e9c4204ecfa.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/73/22/fc/7322fc5678355e3f87a552527e5654c5.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/00/f0/24/00f024f7ec9fde84d601a79be9f6352d.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/49/e4/a3/49e4a3ddb9a628a97f6c9212b5cf3b83.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/f6/2e/5f/f62e5fe9259ee9e9eb077bdacd70d14d.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/8e/ef/6e/8eef6eae749d5de8b8c9a569a3fcfdec.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/63/04/c6/6304c68afed45c01e23c51007f460fed.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/49/1f/b9/491fb9e98867b594fc8ab0008aba6f84.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/09/fa/63/09fa63b8e7f85e3e5bd5077ccf2f2dfd.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/11/b4/46/11b446723bd6e4af5b4f4154ff743fde.jpg") end,
+  function() setclipboard("https://i.pinimg.com/236x/63/04/c6/6304c68afed45c01e23c51007f460fed.jpg") end
 }
 
 local randomNum = math.random(1, #options)
